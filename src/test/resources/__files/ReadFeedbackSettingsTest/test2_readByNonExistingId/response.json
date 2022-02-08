@@ -1,0 +1,12 @@
+{
+	"httpCode":404,
+	"message":"No settings matching id '9a24743c-5c19-4774-954e-a3ad67a734e0' were found",
+	"technicalDetails":{
+		"rootCause":"Not Found",
+		"rootCode":404,
+		"details":[
+			"Request: /settings/9a24743c-5c19-4774-954e-a3ad67a734e0"
+		],
+		"serviceId":"api-feedbacksettings-test"
+	}
+}

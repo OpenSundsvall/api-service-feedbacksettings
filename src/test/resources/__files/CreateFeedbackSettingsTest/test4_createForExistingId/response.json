@@ -1,0 +1,12 @@
+{
+	"httpCode":400,
+	"message":"Settings already exist for personId '49a974ea-9137-419b-bcb9-ad74c81a1d1f'",
+	"technicalDetails":{
+		"rootCode":409,
+		"rootCause":"Conflict",
+		"details":[
+			"Request: /settings"
+		],
+		"serviceId":"api-feedbacksettings-test"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id":"${json-unit.any-string}",
+	"personId":"49a974ea-9137-419b-bcb9-ad74c81a1d1a",
+	"channels":[
+		{
+			"contactMethod":"SMS",
+			"destination":"0701100001",
+			"sendFeedback":true
+		},
+		{
+			"contactMethod":"SMS",
+			"destination":"0701100002",
+			"sendFeedback":false
+		},
+		{
+			"contactMethod":"EMAIL",
+			"destination":"test1@successful.create",
+			"sendFeedback":true
+		}
+	],
+	"created": "${json-unit.any-string}"
+}

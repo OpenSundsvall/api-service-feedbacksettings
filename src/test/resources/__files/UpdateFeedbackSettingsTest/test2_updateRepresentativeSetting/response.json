@@ -1,0 +1,24 @@
+{
+	"id": "9a24743c-5c19-4774-954e-a3ad67a734e5",
+	"personId": "49a974ea-9137-419b-bcb9-ad74c81a1d4f",
+	"organizationId": "15aee472-46ab-4f03-9605-68bd64ebc84a",
+	"channels": [
+		{
+			"contactMethod": "EMAIL",
+			"destination": "updated.representative.2@company.com",
+			"sendFeedback": false
+		},
+		{
+			"contactMethod": "SMS",
+			"destination": "0706100005",
+			"sendFeedback": false
+		},
+		{
+			"contactMethod": "SMS",
+			"destination": "0736100005",
+			"sendFeedback": true
+		}
+	],
+	"created": "${json-unit.any-string}",
+	"modified": "${json-unit.any-string}"
+}

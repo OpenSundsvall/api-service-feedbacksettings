@@ -1,0 +1,19 @@
+{
+	"channels": [
+		{
+			"contactMethod": "SMS",
+			"destination": "0706100002",
+			"sendFeedback": false
+		},
+		{
+			"contactMethod": "EMAIL",
+			"destination": "person.2@company.com",
+			"sendFeedback": true
+		},
+		{
+			"contactMethod": "EMAIL",
+			"destination": "added.email@company.com",
+			"sendFeedback": true
+		}
+	]
+}

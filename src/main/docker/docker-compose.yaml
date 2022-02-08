@@ -1,0 +1,19 @@
+version: "3"
+services:
+  feedbacksettings:
+    # TODO add correct name matching nexus repository also add build number parameter as suffix
+    image: 'ms-feedbacksettings:latest'
+    restart: always
+    build:
+      context: ../../..
+      dockerfile: src/main/docker/Dockerfile
+    ports:
+        - '9090:9090'
+    environment:
+      QUARKUS_PROFILE: 'staging'
+      QUARKUS_SPRING_CLOUD_CONFIG_ENABLED: 'true'
+      QUARKUS_SPRING_CLOUD_CONFIG_FAIL_FAST: 'true'
+      QUARKUS_SPRING_CLOUD_CONFIG_TRUST_CERTS: 'true'
+      QUARKUS_SPRING_CLOUD_CONFIG_URL: 'https://microservices-test.sundsvall.se/config-server'
+      QUARKUS_SPRING_CLOUD_CONFIG_USERNAME: 'replace_me'
+      QUARKUS_SPRING_CLOUD_CONFIG_PASSWORD: 'replace_me'

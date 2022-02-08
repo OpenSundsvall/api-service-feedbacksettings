@@ -1,0 +1,19 @@
+{
+	"channels": [
+		{
+			"contactMethod": "SMS",
+			"destination": "0706100005",
+			"sendFeedback": false
+		},
+		{
+			"contactMethod": "SMS",
+			"destination": "0736100005",
+			"sendFeedback": true
+		},
+		{
+			"contactMethod": "EMAIL",
+			"destination": "updated.representative.2@company.com",
+			"sendFeedback": false
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"id": "9a24743c-5c19-4774-954e-a3ad67a734e2",
+	"personId": "49a974ea-9137-419b-bcb9-ad74c81a1d2f",
+	"channels": [
+		{
+			"contactMethod": "EMAIL",
+			"destination": "person.2@company.com",
+			"sendFeedback": true
+		}
+	],
+	"created": "${json-unit.any-string}",
+	"modified": "${json-unit.any-string}"
+}

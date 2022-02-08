@@ -1,0 +1,9 @@
+{
+	"channels": [
+		{
+			"contactMethod": "EMAIL",
+			"destination": "person.2@company.com",
+			"sendFeedback": true
+		}
+	]
+}

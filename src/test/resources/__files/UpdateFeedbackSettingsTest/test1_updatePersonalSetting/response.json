@@ -1,0 +1,18 @@
+{
+	"id":"9a24743c-5c19-4774-954e-a3ad67a734e2",
+	"personId":"49a974ea-9137-419b-bcb9-ad74c81a1d2f",
+	"channels":[
+		{
+			"contactMethod":"SMS",
+			"destination":"0706100222",
+			"sendFeedback":false
+		},
+		{
+			"contactMethod":"EMAIL",
+			"destination":"updated.person.2@company.com",
+			"sendFeedback":false
+		}
+	],
+	"created": "${json-unit.any-string}",
+	"modified": "${json-unit.any-string}"
+}

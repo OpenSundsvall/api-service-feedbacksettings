@@ -1,0 +1,18 @@
+{
+	"id":"${json-unit.any-string}",
+	"personId":"49a974ea-9137-419b-bcb9-ad74c81a1d1a",
+	"organizationId":"15aee472-46ab-4f03-9605-68bd64ebc84b",
+	"channels":[
+		{
+			"contactMethod":"SMS",
+			"destination":"0731100001",
+			"sendFeedback":true
+		},
+		{
+			"contactMethod":"EMAIL",
+			"destination":"test2@successful.create",
+			"sendFeedback":true
+		}
+	],
+	"created": "${json-unit.any-string}"
+}
