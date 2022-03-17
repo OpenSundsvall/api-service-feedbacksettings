@@ -1,4 +1,6 @@
 # FeedbackSettings
+![bild](https://user-images.githubusercontent.com/75727533/158780157-78abc11a-ec21-4db0-ba08-989851783c05.png)
+
 
 ## Leverantör
 
